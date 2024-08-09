@@ -1,0 +1,31 @@
+```
+// Short Video Sharing
+const videoInput = document.getElementById('video-input');
+const videoPreview = document.getElementById('video-preview');
+
+videoInput.addEventListener('change', (e) => {
+  const videoFile = e.target.files[0];
+  // Upload video to Firebase Storage or YouTube API
+});
+
+// Messaging
+const messageInput = document.getElementById('message-input');
+const messageList = document.getElementById('message-list');
+
+messageInput.addEventListener('keypress', (e) => {
+  if (e.key === 'Enter') {
+    const messageText = e.target.value;
+    // Send message to Firebase Realtime Database or Cloud Firestore
+  }
+});
+
+// Media Sharing
+const mediaInput = document.getElementById('media-input');
+const mediaPreview = document.getElementById('media-preview');
+
+mediaInput.addEventListener('change', (e) => {
+  const mediaFile = e.target.files[0];
+  // Upload media to Firebase Storage
+});
+```
+

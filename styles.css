@@ -1,0 +1,31 @@
+```
+body {
+	font-family: Georgia, serif;
+}
+
+#logo {
+	font-family: 'Playfair Display', serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #333;
+}
+
+.top-bar {
+	background-color: #007bff;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+.login-form {
+	/* Add styling for login form */
+}
+
+#profile-info {
+	/* Add styling for profile information container */
+}
+
+#logout-btn {
+	/* Add styling for logout button */
+}
+```
